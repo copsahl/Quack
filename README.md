@@ -56,3 +56,7 @@ Maybe.
 ### Should Tom teach the quack in his Data Structures class?
 
 Of course. 
+
+### Why don't you comment your code?
+
+Because even I don't know what it is doing.
