@@ -21,5 +21,5 @@ int addQuackNode(Quack_t *quack, int val);
 int searchVal(Quack_t *quack, int val);
 int duckduckGrayduck(Quack_t *quack);		// This is where the magic happens
 void printQuack(Quack_t *quack);
-void printline(**char statement);
+void printStatement(**char statement);
 #endif
