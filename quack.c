@@ -103,7 +103,7 @@ void printQuack(Quack_t *quack){
 	printf("\n");
 }
 
-void printStatement(**char statement){
+void printStatement(char *statement){
 	printf("\n\n%s",statement);
 	printf("\n\n");
 }
