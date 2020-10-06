@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char ** fill = "Filling Quack!";
-char ** search = "Searching Quack!";
-char ** valF = "Value Found!";
-char ** valNF = "Value Not Found!";
-char ** prQuack = "Printing the Quack!";
-char ** popQuack = "Popping from the Quack!";
+char *fill = "Filling Quack!";
+char *search = "Searching Quack!";
+char *valF = "Value Found!";
+char *valNF = "Value Not Found!";
+char *prQuack = "Printing the Quack!";
+char *popQuack = "Popping from the Quack!";
 
 int main(void){
 
@@ -40,7 +40,7 @@ int main(void){
 	// Popping from the Quack
 	printf("\n\nPopping from the Quack!\n\n");
 	for(i = 0; i < 15; i++){
-		printf("%d\n", duckduckGrayduck(q, 0));
+		printf("%d\n", duckduckGrayduck(q));
 	}
 	
 	// Printing the new Quack
