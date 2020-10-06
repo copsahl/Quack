@@ -87,7 +87,7 @@ int duckduckGrayduck(Quack_t *quack){
 		printf("quack!");
 		return num;
 	}else if(r % 3 == 2){
-		// Gray Duck - Returns -9999 and does nothing because it hates you.
+		// Gray Duck
 		printf("qUAcK?");
 		return rand();
 	}
