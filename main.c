@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *fill = "Filling Quack!";
+char *search = "Searching Quack!";
+char *valF = "Value Found!";
+char *valNF = "Value Not Found!";
+char *prQuack = "Printing the Quack!";
+char *popQuack = "Popping from the Quack!";
+
 int main(void){
 
 	Quack_t *q;
@@ -11,33 +18,33 @@ int main(void){
 	q = buildQuack();
 
 	// Adding 100 pseudo-random numbers to the Quack
-	printf("Filling Quack!\n\n");
+	printStatement(fill);
 	for(i = 0; i < 100; i++){
 		addQuackNode(q, i * 45 % 6 +12 / 5 * 4 + i);
 	}
 	
 	// Searching the Quack
-	printf("\n\nSearching Quack!\n\n");
+	printStatement(search);
 	if(searchVal(q, 12) == 1){
-		printf("Value Found!\n");
+		printStatement(valF);
 	}
 
 	if(searchVal(q, 100000) == 0){
-		printf("Value Not Found!\n");
+		printStatement(valNF);
 	}
 
 	// Printing the Quack
-	printf("\n\nPrinting the Quack!\n\n");
+	printStatement(prQuack);
 	printQuack(q);
 
 	// Popping from the Quack
 	printf("\n\nPopping from the Quack!\n\n");
 	for(i = 0; i < 15; i++){
-		printf("%d\n", duckduckGrayduck(q, 0));
+		printf("%d\n", duckduckGrayduck(q));
 	}
 	
 	// Printing the new Quack
-	printf("\n\nPrinting Quack!\n\n");
+	printStatement(prQuack);
 	printQuack(q);
 
 	return 0;
