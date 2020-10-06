@@ -60,7 +60,7 @@ int searchVal(Quack_t *quack, int val){
 	return 0;
 }
 
-int duckduckGrayduck(Quack_t *quack, unsigned int scramble){
+int duckduckGrayduck(Quack_t *quack){
 
 
 	int r;

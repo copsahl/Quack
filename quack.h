@@ -19,6 +19,6 @@ typedef struct{
 Quack_t *buildQuack();
 int addQuackNode(Quack_t *quack, int val);
 int searchVal(Quack_t *quack, int val);
-int duckduckGrayduck(Quack_t *quack, unsigned int scramble);		// This is where the magic happens
+int duckduckGrayduck(Quack_t *quack);		// This is where the magic happens
 void printQuack(Quack_t *quack);
 #endif
