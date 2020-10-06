@@ -49,7 +49,7 @@ I don't know, I'm kind of lazy.
 
 Good enough to create a frankenstein data structure that is utterly useless.
 
-### Will their be possible updates or different itterations of the quack that would be semi useful?
+### Will there be possible updates or different itterations of the quack that would be semi useful?
 
 Maybe. 
 
