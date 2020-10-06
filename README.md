@@ -2,7 +2,7 @@
 
 ## What is Quack?
 
-Quack provides is with a cutting edge, top of the line, way to deal with data! How does it do that you might ask? Well, lets just take a look at it's name real quick...
+Quack provides us with a cutting edge, top of the line, way to deal with data! How does it do that you might ask? Well, lets just take a look at it's name real quick...
 
 Quack =  Queue + Stack
 
